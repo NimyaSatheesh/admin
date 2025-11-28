@@ -75,7 +75,7 @@
                                 <li class="page-item">
                                     <a href="#" class="page-link">2</a>
                                 </li>
-                                                                <li class="page-item">
+                                <li class="page-item">
                                     <a href="#" class="page-link"><i class='bx bx-right-arrow-alt'></i></a>
                                 </li>
                             </ul>
