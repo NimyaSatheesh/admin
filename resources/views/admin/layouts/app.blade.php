@@ -8,12 +8,16 @@
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <meta name="description" content="A fully responsive premium admin dashboard template" />
      <meta name="author" content="Techzaa" />
+     <meta name="csrf-token" content="{{ csrf_token() }}">
      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
      <link rel="shortcut icon" href="{{ asset('assets/images/favicon.png') }}">
      <link href="{{ asset('assets/css/vendor.min.css') }}" rel="stylesheet" type="text/css" />
      <link href="{{ asset('assets/css/icons.min.css') }}" rel="stylesheet" type="text/css" />
      <link href="{{ asset('assets/css/app.min.css') }}" rel="stylesheet" type="text/css" />
-     <script src="{{ asset('assets/js/config.min.js') }}"></script>
+     <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css">
+     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+     <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+        <script src="{{ asset('assets/js/config.min.js') }}"></script>
 </head>
 <body>
 
@@ -52,6 +56,7 @@
     <script src="{{ asset('assets/vendor/jsvectormap/maps/world-merc.js') }}"></script>
     <script src="{{ asset('assets/vendor/jsvectormap/maps/world.js') }}"></script>
     <script src="{{ asset('assets/js/pages/dashboard.js') }}"></script>
+    @yield('scripts')
 
 </body>
 

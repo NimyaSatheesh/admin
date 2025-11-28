@@ -8,7 +8,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
             </div>
 
-            <form action="{{ route('admin.todo.store') }}" method="POST">
+            <form action="{{ route('admin.todo.store') }}"  method="POST">
                 @csrf
 
                 <div class="modal-body">

@@ -109,13 +109,21 @@
                    </div>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="{{route('admin.faqs.index')}}">
-                     <span class="nav-icon">
-                          <iconify-icon icon="solar:list-heart-minimalistic-broken"></iconify-icon>
-                     </span>
-                     <span class="nav-text"> FAQs </span>
-                </a>
-           </li>
+                    <a class="nav-link" href="{{route('admin.faqs.index')}}">
+                         <span class="nav-icon">
+                              <iconify-icon icon="solar:list-heart-minimalistic-broken"></iconify-icon>
+                         </span>
+                         <span class="nav-text"> FAQs </span>
+                    </a>
+               </li>
+               <li class="nav-item">
+                    <a class="nav-link" href="{{route('admin.blog.index')}}">
+                         <span class="nav-icon">
+                              <iconify-icon icon="solar:list-heart-minimalistic-broken"></iconify-icon>
+                         </span>
+                         <span class="nav-text"> Blog </span>
+                    </a>
+               </li>
 
               <li class="menu-title">Custom</li>
 
